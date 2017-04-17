@@ -1,43 +1,43 @@
 @font-face {
     font-family: 'playfair_displaybold';
-    src: url('../fontsplayfairdisplay-bold-webfont.eot');
-    src: url('../fontsplayfairdisplay-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fontsplayfairdisplay-bold-webfont.woff') format('woff'),
-         url('../fontsplayfairdisplay-bold-webfont.ttf') format('truetype'),
-         url('../fontsplayfairdisplay-bold-webfont.svg#playfair_displaybold') format('svg');
+    src: url('../fonts/playfairdisplay-bold-webfont.eot');
+    src: url('../fonts/playfairdisplay-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/playfairdisplay-bold-webfont.woff') format('woff'),
+         url('../fonts/playfairdisplay-bold-webfont.ttf') format('truetype'),
+         url('../fonts/playfairdisplay-bold-webfont.svg#playfair_displaybold') format('svg');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'playfair_displaybold_italic';
-    src: url('../fontsplayfairdisplay-bolditalic-webfont.eot');
-    src: url('../fontsplayfairdisplay-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fontsplayfairdisplay-bolditalic-webfont.woff') format('woff'),
-         url('../fontsplayfairdisplay-bolditalic-webfont.ttf') format('truetype'),
-         url('../fontsplayfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic') format('svg');
+    src: url('../fonts/playfairdisplay-bolditalic-webfont.eot');
+    src: url('../fonts/playfairdisplay-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/playfairdisplay-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/playfairdisplay-bolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/playfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic') format('svg');
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'playfair_displayitalic';
-    src: url('../fontsplayfairdisplay-italic-webfont.eot');
-    src: url('../fontsplayfairdisplay-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fontsplayfairdisplay-italic-webfont.woff') format('woff'),
-         url('../fontsplayfairdisplay-italic-webfont.ttf') format('truetype'),
-         url('../fontsplayfairdisplay-italic-webfont.svg#playfair_displayitalic') format('svg');
+    src: url('../fonts/playfairdisplay-italic-webfont.eot');
+    src: url('../fonts/playfairdisplay-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/playfairdisplay-italic-webfont.woff') format('woff'),
+         url('../fonts/playfairdisplay-italic-webfont.ttf') format('truetype'),
+         url('../fonts/playfairdisplay-italic-webfont.svg#playfair_displayitalic') format('svg');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'playfair_displayregular';
-    src: url('../fontsplayfairdisplay-regular-webfont.eot');
-    src: url('../fontsplayfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fontsplayfairdisplay-regular-webfont.woff') format('woff'),
-         url('../fontsplayfairdisplay-regular-webfont.ttf') format('truetype'),
-         url('../fontsplayfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
+    src: url('../fonts/playfairdisplay-regular-webfont.eot');
+    src: url('../fonts/playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/playfairdisplay-regular-webfont.woff') format('woff'),
+         url('../fonts/playfairdisplay-regular-webfont.ttf') format('truetype'),
+         url('../fonts/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -47,8 +47,8 @@
     src: url('../fonts/raleway-light-webfont.eot');
     src: url('../fonts/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/raleway-light-webfont.woff') format('woff'),
-         url('../fontsraleway-light-webfont.ttf') format('truetype'),
-         url('../fontsraleway-light-webfont.svg#ralewaylight') format('svg');
+         url('../fonts/raleway-light-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-light-webfont.svg#ralewaylight') format('svg');
     font-weight: lighter;
     font-style: normal;
 }
@@ -66,48 +66,76 @@
 
 @font-face {
     font-family: 'ralewaymedium';
-    src: url('../fontsraleway-medium-webfont.eot');
-    src: url('../fontsraleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fontsraleway-medium-webfont.woff') format('woff'),
-         url('../fontsraleway-medium-webfont.ttf') format('truetype'),
-         url('../fontsraleway-medium-webfont.svg#ralewaymedium') format('svg');
+    src: url('../fonts/raleway-medium-webfont.eot');
+    src: url('../fonts/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-medium-webfont.woff') format('woff'),
+         url('../fonts/raleway-medium-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-medium-webfont.svg#ralewaymedium') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'ralewaymedium_italic';
-    src: url('../fontsraleway-mediumitalic-webfont.eot');
-    src: url('../fontsraleway-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fontsraleway-mediumitalic-webfont.woff') format('woff'),
-         url('../fontsraleway-mediumitalic-webfont.ttf') format('truetype'),
-         url('../fontsraleway-mediumitalic-webfont.svg#ralewaymedium_italic') format('svg');
+    src: url('../fonts/raleway-mediumitalic-webfont.eot');
+    src: url('../fonts/raleway-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-mediumitalic-webfont.woff') format('woff'),
+         url('../fonts/raleway-mediumitalic-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-mediumitalic-webfont.svg#ralewaymedium_italic') format('svg');
     font-weight: normal;
     font-style: italic;
 }
 
+strong {
+  font-weight: 700;
+}
+
+cite, em {
+  font-style: italic;
+}
+
+body{
+  font-size: 16px;
+  font-family: 'ralewaylight';
+  max-width: 1240px;
+}
+
 .logo {
   float: left;
-  height: 65px;
-  margin-left: 35px;
+  height: 45px;
 }
 
 .cart {
   float: right;
-  height: 65px;
+  height: 45px;
 }
 
 header{
-  height: 75px;
+  height: 50px;
   text-align: center;
+  padding: 10px 30px;
+  width: 1180px;
 }
 
-header ul {
+.nav {
   display: inline-block;
+  font-family: 'ralewaylight';
+  color: #e2574c;
+  letter-spacing: .5px;
+  font-weight: 900;
+  padding-right: 115px;
+}
+header a{
+  color: #e2574c;
+  text-decoration: none;
+}
+header a:hover {
+  color: #b64036;
 }
 
 header ul li {
   display: inline-block;
+  padding: 0 10px;
 }
 
 .clear {
@@ -116,20 +144,12 @@ header ul li {
 
 .container{
   width: 1240px;
-}
-
-a{
-  color:#e2574c;
-  text-decoration: none;
-}
-
-a:hover{
-  color:#e2574c;
+  margin: 0;
 }
 
 .hero {
     text-align: center;
-    height: 600px;
+    height: 460px;
     background-image: linear-gradient(rgba(0,130,170,.5),rgba(0,130,170,.5)), url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
     background-repeat: no-repeat, no-repeat, repeat;
     background-position: 0, center 70px, 0;
@@ -156,7 +176,99 @@ a:hover{
     color: white;
     font-family: 'playfair_displayregular';
     font-weight: lighter;
-    font-size: 48px;
+    font-size: 54px;
+}
+
+h2 {
+  font-family: 'playfair_displayregular';
+  font-size: 40px;
+  font-weight: 200;
+}
+
+p {
+  font-size: 18px;
+  color: #2d2d2d;
+}
+
+.tag {
+  text-align: center;
+  padding: 30px 10px;
+  width: 600px;
+  line-height: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.category_box {
+  padding-left: 0px;
+  text-align: center;
+  font-family: 'ralewaymedium';
+  font-size: 36px;
+  color: #969696;
+}
+
+.category_box li{
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+
+.category_box a{
+  color: white;
+  text-decoration: none;
+}
+.mens {
+  background-image: url(../images/mens-category.jpg);
+  height: 305px;
+  width: 610px;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.trends {
+  background-image: url(../images/trends-category.jpg);
+  height: 305px;
+  width: 300px;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.glasses {
+  background-image: url(../images/glasses-category.jpg);
+  height: 305px;
+  width: 300px;
+  background-size: cover;  
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.sale {
+  background-image: url(../images/sale-category.jpg);
+  height: 305px;
+  width: 300px;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.bags{
+  background-image: url(../images/bags-category.jpg);
+  height: 305px;
+  width: 300px;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.womens {
+  background-image: url(../images/womens-category.jpg);
+  height: 305px;
+  width: 610px;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
 }
 
 .contact-info{
