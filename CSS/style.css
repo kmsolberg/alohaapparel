@@ -144,7 +144,6 @@ header ul li {
 
 .container{
   width: 1240px;
-  margin: 0;
 }
 
 .hero {
@@ -188,7 +187,6 @@ h2 {
 
 p {
   font-size: 18px;
-  color: #2d2d2d;
 }
 
 .tag {
@@ -338,14 +336,56 @@ button {
    right: 125px;
 }
 
-.footer {
+footer {
   background-color: #242424;
+  margin-top: 10px;
+  height: 260px;
+  position: absolute;
 }
 
-.contact-info{
-  float: left;
+.contact-info {
+    float: left;
+    padding-left: 30px;
+    color: white;
+    line-height: 1.5em;
+    position: relative;
+    top: 52%;
+    left: 17%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: 'playfair_displayregular';
+    font-size: 18px;
+}
+
+.contact-info a{
+  color: white;
+}
+
+.contact-info a:hover{
+  color: #b64036;
+}
+
+.address{
+  color: #969696;
 }
 
 .social-media{
-  float: right;
+    float: right;
+    padding-right: 30px;
+    line-height: 2em;
+    position: relative;
+    top: 45%;
+    right: 52%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
+.social-media a{
+  text-decoration: none;
+  color: white;
+}
+
+.social-media a:hover{
+  color: #b64036;
 }
