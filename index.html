@@ -4,8 +4,8 @@
   <head> 
     <meta charset="utf-8">
     <title> Aloha Apparel Co. </title>
+    <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/reset.css"
     <script src="https://use.fontawesome.com/6de257b319.js"></script>
   </head>
   
@@ -78,29 +78,49 @@
     <section class="container sign_up">
       <h2><em>Sign-up for</em> <strong>Updates</strong></h2>
       <p>Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog.  Unsubscribe at any time.</p>
-      
       <!--This is where I will put the php or java script for "action"-->
       <form class "subscribe_button" action="" method="post">
         <input type="email" placeholder="Your Email" id="email">
-        <button>Subscribe</button>
+      <button>Subscribe</button>
       </form>
     </section>
 
     <footer class="container">
       <div class="contact-info">
-        <p>&copy;2016 Aloha Apparel Co. <br>
+        <span class="contact"> <p>&copy;2016 Aloha Apparel Co. <br>
         Powered by HTML and CSS. <br></p>
-        <p> 604-604-6040. <a href="mailto:info@alohaapparel.com">info@alohaapparel.com</a> </p>
-        <p class="address"> 1490 West Broadway <br>
+        </span>
+        <span class="contact">
+          <p> 604-604-6040. <a href="mailto:info@alohaapparel.com">info@alohaapparel.com</a> </p>
+        </span>
+        <span class="contact address"> 
+          <p> 1490 West Broadway <br>
         Vancouver, BC, Canada </p>
+        </span>
       </div>
       
       <ul class="social-media fa-ul">
-        <li><a href=""><i class="fa fa-facebook fa-fw" aria-hidden="true"></i>&nbsp;Facebook</a></li>
-        <li><a href=""><i class="fa fa-twitter fa-fw" aria-hidden="true"></i>&nbsp;Twitter</a></li>
-        <li><a href=""><i class="fa fa-instagram fa-fw" aria-hidden="true"></i>&nbsp;Instagram</a></li>
-        <li><a href=""><i class="fa fa-pinterest fa-fw" aria-hidden="true"></i>&nbsp;Pinterest</a></li>
-        <li><a href=""><i class="fa fa-google-plus fa-fw" aria-hidden="true"></i>&nbsp;Google+</a></li>
+        <li>
+          <div> <a href=""><i class="fa fa-facebook fa-fw" aria-hidden="true"></i>
+          </div>
+          <div class="hide"> &nbsp;Facebook</a></div>
+        </li>
+        <li>
+          <div> <a href=""><i class="fa fa-twitter fa-fw" aria-hidden="true"></i></div>
+          <div class="hide"> &nbsp;Twitter</a></div>
+        </li>
+        <li>
+          <div> <a href=""><i class="fa fa-instagram fa-fw" aria-hidden="true"></i></div>
+          <div class="hide"> &nbsp;Instagram</a></div>
+        </li>
+        <li>
+          <div> <a href=""><i class="fa fa-pinterest fa-fw" aria-hidden="true"></i></div>
+          <div class="hide"> &nbsp;Pinterest</a></div>
+        </li>
+        <li>
+          <div> <a href=""><i class="fa fa-google-plus fa-fw" aria-hidden="true"></i></div>
+          <div class="hide"> &nbsp;Google Plus</a></div>
+        </li>
       </ul>
     </footer>
   </body>

@@ -187,10 +187,14 @@ p {
 .tag {
   text-align: center;
   line-height: 2.5em;
-  height: 300px;
+  height: 345px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.tag h2 {
+  padding-bottom: 2rem;
 }
 
 .tag p{
@@ -199,19 +203,20 @@ p {
 
 .category_box ul {
   text-align: center;
-  font-family: 'ralewaymedium';
-  font-size: 36px;
-  color: #969696;
   text-align: center;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  align-items: center;
 }
 
 .category_box li{
   display: inline-block;
-  margin-bottom: 10px;
+  margin: 2.5px 2.5px;
   text-align: center;
+  font-family: 'ralewaymedium';
+  font-size: 2rem;
+  color: #969696;
 }
 
 .category_box a{
@@ -264,16 +269,16 @@ p {
 .sign_up {
   background-image: url(../images/wave-bkgd.jpg);
   color: white;
-  width: 1240px;
-  height: 350px;
-  background-position: bottom;
+  height: 425px;
+  background-position: right bottom;
+  background-size: 1800px;
   position: relative;
   font-family: 'ralewaylight';
 }
 
 .sign_up h2{
   position: absolute;
-  top: 15%;
+  top: 22%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -281,14 +286,15 @@ p {
 
 .sign_up p {
     position: absolute;
-    top: 45%;
+    top: 52%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     text-align: center;
     padding: 30px 10px;
-    width: 650px;
+    width: 95%;
     line-height: 2em;
+    font-size: 1.2rem;
     margin-left: auto;
     color: white;
 }
@@ -296,15 +302,15 @@ p {
 .sign_up form {
   position: absolute;
   display: inline-block;
-  top: 75%;
+  top: 85%;
   left: 55%;
-  margin-right: -50%;
+  margin-right: -55%;
   transform: translate(-50%, -50%);
 }
 
 input[type="email"] {
    color: #969696;
-   padding: 20px 275px 20px 20px;
+   padding: 20px 210px 20px 20px;
    border: 1px solid #d7d7d7;
    border-radius: 30px;
    font-size: 18px;
@@ -312,32 +318,38 @@ input[type="email"] {
 }
 
 button {
-   border: 0;
-   background-color: #e2574c;
-   color: white;
-   font-size: 18px;
-   font-family: 'ralewaylight';
-   padding: 15px 15px;
-   border-radius: 30px;
-   position: relative;
-   right: 125px;
+    border: 0;
+    background-color: #e2574c;
+    color: white;
+    font-size: 18px;
+    font-family: 'ralewaylight';
+    padding: 15px 15px;
+    border-radius: 30px;
+    position: relative;
+    left: 302px;
+    bottom: 58px;
 }
 
 footer {
   background-color: #242424;
   margin-top: 10px;
-  height: 260px;
+  height: 330px;
   position: absolute;
-  display: flex;
-  flex-wrap: column wrap;
 }
 
 .contact-info {
-    padding-left: 30px;
     color: white;
     line-height: 1.5em;
     font-family: 'playfair_displayregular';
     font-size: 18px;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.contact{
+  padding: 10px 0px;
 }
 
 .contact-info a{
@@ -352,11 +364,20 @@ footer {
   color: #969696;
 }
 
-.social-media{
+.social-media {
     padding-right: 30px;
     line-height: 2em;
-    position: relative;   
     font-size: 18px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 25px;
+
+}
+
+.hide {
+    visibility: hidden;
 }
 
 .social-media a{
@@ -400,5 +421,9 @@ footer {
   align-items: center;
   flex-direction: row;
 }
+.hide {
+    visibility: visible;
+}
+
 
 }
