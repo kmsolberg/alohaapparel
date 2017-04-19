@@ -5,20 +5,24 @@
     <meta charset="utf-8">
     <title> Aloha Apparel Co. </title>
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/reset.css"
     <script src="https://use.fontawesome.com/6de257b319.js"></script>
   </head>
   
   <body>
     
-    <header>
-      <img src="images/aloha-logo.svg" class="logo clear">
+    <header class="container header-pics">
+      <img src="images/aloha-logo.svg" class="logo">
+      <img src="images/cart-icon.svg" class="cart">
+    </header>
+
+    <header class="container header-menu">
       <ul class="nav">
         <li><a href="">ABOUT</a></li>
         <li><a href="">SHOP</a></li>
         <li><a href="">FEATURED</a></li>
         <li><a href="">UPDATES</a></li>
       </ul>
-      <img src="images/cart-icon.svg" class="cart">
     </header>
     
     <section class="hero container">
@@ -34,14 +38,14 @@
         </p>
     </section>
 
-    <section class="container">
+    <section class="container category_box">
       <ul class="category_box">
-        <li class="mens"><a href="">MEN'S</a></li>
-        <li class="trends"><a href="">TRENDS</a></li>
-        <li class="glasses"><a href="">GLASSES</a></li>
-        <li class="sale"><a href="">SALE</a></li>
-        <li class="bags"><a href="">BAGS</a></li>
-        <li class="womens"><a href="">WOMEN'S</a></li>
+        <li class="mens box_a"><a href="">MEN'S</a></li>
+        <li class="trends box_b"><a href="">TRENDS</a></li>
+        <li class="glasses box_b"><a href="">GLASSES</a></li>
+        <li class="sale box_b"><a href="">SALE</a></li>
+        <li class="bags box_b"><a href="">BAGS</a></li>
+        <li class="womens box_a"><a href="">WOMEN'S</a></li>
       </ul>
     </section>
 
@@ -77,7 +81,7 @@
       
       <!--This is where I will put the php or java script for "action"-->
       <form class "subscribe_button" action="" method="post">
-        <input type="email" value="Your Email" id="email">
+        <input type="email" placeholder="Your Email" id="email">
         <button>Subscribe</button>
       </form>
     </section>
