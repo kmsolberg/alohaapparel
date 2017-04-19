@@ -142,7 +142,9 @@ header ul li {
 }
 
 .container{
-  max-width: 480px;
+  /*max-width: 480px;*/
+  min-width: 320px;
+  margin: 0 auto;
 }
 
 .hero {
@@ -217,6 +219,9 @@ p {
   font-family: 'ralewaymedium';
   font-size: 2rem;
   color: #969696;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .category_box a{
@@ -390,22 +395,22 @@ footer {
 }
 
 @media all and (min-width: 600px) {
-.container{
-  width: 600px;
-}
+  /*.container{
+    max-width: 600px;
+  }*/
 
   footer {
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-}
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
 }
 
 
 @media all and (min-width: 1240px) {
 
 .container{
-  width: 1240px;
+  max-width: 1240px;
 }
 
 .header-pics{
