@@ -148,31 +148,31 @@ header ul li {
 }
 
 .hero {
-    display: flex;
-    text-align: center;
-    height: 525px;
-    background-image: linear-gradient(rgba(0,130,170,.5),rgba(0,130,170,.5)), url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
-    background-repeat: no-repeat, no-repeat, repeat;
-    background-position: 0, center 80px, 239px 0px;
-    background-size: auto auto, auto 480px, auto 525px;
-    position: relative;
-    flex-flow: column nowrap;
-    justify-content: center;
-  }
+  display: flex;
+  text-align: center;
+  height: 525px;
+  background-image: linear-gradient(rgba(0,130,170,.5),rgba(0,130,170,.5)), url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position: 0, center 80px, 239px 0px;
+  background-size: auto auto, auto 480px, auto 525px;
+  position: relative;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
 
 .hero h3 {
-    color: white;
-    font-family: "ralewaylight";
-    font-size: 1.4rem;
+  color: white;
+  font-family: "ralewaylight";
+  font-size: 1.4rem;
 }
 
 .hero h1 {
-    color: white;
-    font-family: 'playfair_displayregular';
-    font-weight: lighter;
-    font-size: 3rem;
-    padding: 0 3rem;
-    margin: 0;
+  color: white;
+  font-family: 'playfair_displayregular';
+  font-weight: lighter;
+  font-size: 3rem;
+  padding: 0 3rem;
+  margin: 0;
 }
 
 h2 {
@@ -203,7 +203,7 @@ p {
   font-size: 1.3rem;
 }
 
-.category_box ul {
+.category-box ul {
   text-align: center;
   text-align: center;
   display: flex;
@@ -212,7 +212,7 @@ p {
   align-items: center;
 }
 
-.category_box li{
+.category-box li{
   display: inline-block;
   margin: 2.5px 2.5px;
   text-align: center;
@@ -222,25 +222,20 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.category_box a{
-  color: white;
-  text-decoration: none;
-}
-
-.box_a {
-  height: 240px;
-  width: 480px;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.box_b {
   height: 235px;
   width: 235px;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.category-box a{
+  color: white;
+  text-decoration: none;
+}
+
+.category-box .rectangle {
+  height: 240px;
+  width: 480px;
 }
 
 .mens {
@@ -290,18 +285,18 @@ p {
 }
 
 .sign_up p {
-    position: absolute;
-    top: 52%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    padding: 30px 10px;
-    width: 95%;
-    line-height: 2em;
-    font-size: 1.2rem;
-    margin-left: auto;
-    color: white;
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 30px 10px;
+  width: 95%;
+  line-height: 2em;
+  font-size: 1.2rem;
+  margin-left: auto;
+  color: white;
 }
 
 .sign_up form {
@@ -314,25 +309,25 @@ p {
 }
 
 input[type="email"] {
-   color: #969696;
-   padding: 20px 210px 20px 20px;
-   border: 1px solid #d7d7d7;
-   border-radius: 30px;
-   font-size: 18px;
-   font-family: 'ralewaylight';
+  color: #969696;
+  padding: 20px 210px 20px 20px;
+  border: 1px solid #d7d7d7;
+  border-radius: 30px;
+  font-size: 18px;
+  font-family: 'ralewaylight';
 }
 
 button {
-    border: 0;
-    background-color: #e2574c;
-    color: white;
-    font-size: 18px;
-    font-family: 'ralewaylight';
-    padding: 15px 15px;
-    border-radius: 30px;
-    position: relative;
-    left: 302px;
-    bottom: 58px;
+  border: 0;
+  background-color: #e2574c;
+  color: white;
+  font-size: 18px;
+  font-family: 'ralewaylight';
+  padding: 15px 15px;
+  border-radius: 30px;
+  position: relative;
+  left: 302px;
+  bottom: 58px;
 }
 
 footer {
@@ -343,14 +338,14 @@ footer {
 }
 
 .contact-info {
-    color: white;
-    line-height: 1.5em;
-    font-family: 'playfair_displayregular';
-    font-size: 18px;
-    display: flex;
-    flex-flow: column wrap;
-    text-align: center;
-    padding-top: 50px;
+  color: white;
+  line-height: 1.5em;
+  font-family: 'playfair_displayregular';
+  font-size: 18px;
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  padding-top: 50px;
 }
 
 .contact{
@@ -370,19 +365,19 @@ footer {
 }
 
 .social-media {
-    padding-right: 30px;
-    line-height: 2em;
-    font-size: 18px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: baseline;
-    padding-top: 25px;
+  padding-right: 30px;
+  line-height: 2em;
+  font-size: 18px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: baseline;
+  padding-top: 25px;
 
 }
 
 .hide {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .social-media a{
@@ -409,26 +404,24 @@ footer {
 
 @media all and (min-width: 1240px) {
 
-.container{
-  max-width: 1240px;
-}
+  .container{
+    max-width: 1240px;
+    }
 
-.header-pics{
-  position: absolute;
-}
+  .header-pics{
+    position: absolute;
+  }
 
-.header-menu{
-  border-top: 0;
-}
+  .header-menu{
+    border-top: 0;
+  }
 
-footer {
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-}
-.hide {
+  footer {
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  .hide {
     visibility: visible;
-}
-
-
+  }
 }
