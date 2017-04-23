@@ -344,6 +344,7 @@ p {
   display: flex;
   text-align: center;
   flex-flow: column wrap;
+  margin-bottom: 10px;
 }
 
 .sign_up h2{
@@ -570,11 +571,58 @@ footer {
   .name a{
     font-size: 1.8rem;
   }
+
+  .sign_up {
+    height: 375px;
+    background-position: 1000px 375px;
+    background-size: 1500px;
+  }
+
+  .sign_up h2{
+    padding: 75px 0 30px 0;
+  }
+
+  .sign_up p{
+    width: 92%;
+    align-self: center;
+    padding-bottom: 0;
+  }
   
+  input[type="email"] {
+    width: 90%;
+    padding: 15px;
+  }
+
+  button {
+    padding: 12px;
+    right: 15%;
+  }
+
   footer {
     justify-content: space-between;
-    align-items: center;
+    display: flex;
     flex-direction: row;
+  }
+
+  .contact-info{
+    text-align: left;
+    align-self: center;
+    padding: 0;
+ }
+
+ .social-media{
+   display: list-item;
+   width: initial;
+ }
+
+ .social-media li {
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+  .hide {
+    visibility: visible;
   }
 }
 
