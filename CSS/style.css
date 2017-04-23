@@ -372,7 +372,7 @@ p {
   padding-bottom: 30px;
 }
 
-.subscribe_button {
+.subscribe-button {
   justify-content: center;  
   display: flex;
   text-align: center;
@@ -405,6 +405,14 @@ button {
   width: 25%;
   position: absolute;
   right: 12%;
+}
+
+#email:focus {
+  outline:0 !important;
+}
+
+button:focus {
+  outline:0 !important;
 }
 
 footer {

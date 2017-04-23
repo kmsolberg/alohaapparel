@@ -1,8 +1,4 @@
 $(function (){
-
-// code between these lines!
-
-// FLICKITY SLIDER
   $('.main-carousel').flickity({
     // options
     cellAlign: 'center',
@@ -10,7 +6,6 @@ $(function (){
     wrapAround: true
   });
 
-// SMOOTH SCROLLING (CSS TRICKS)
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -23,8 +18,13 @@ $(function (){
       }
     }
   });
-// FORM SUBMIT 
 
-
-
+  $('.subscribe-button').on('submit', function(event){
+    event.preventDefault();
+    if ( $('#email').val() == '' ) {
+          alert('Please enter a valid e-mail')
+        } else {
+          alert('Thanks for subscribing!');
+        }        
+  });
 });
