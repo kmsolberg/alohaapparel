@@ -151,6 +151,7 @@ header ul li {
   /*max-width: 480px;*/
   min-width: 320px;
   margin: 0 auto;
+  width: 100%;
 }
 
 .hero {
@@ -212,8 +213,6 @@ p {
 }
 
 .category-box ul {
-  text-align: center;
-  text-align: center;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -332,7 +331,6 @@ p {
 .flickity-page-dots {
   bottom: -90px
 }
-
 
 .sign_up {
   background-image: url(../images/wave-bkgd.jpg);
@@ -482,6 +480,9 @@ footer {
   /*.container{
     max-width: 600px;
   }*/
+  h2 {
+    font-size: 2.5rem;
+  }
 
   .header-pics{
     position: absolute;
@@ -529,7 +530,47 @@ footer {
   .tag p{
     font-size: 1.2rem;
   }
+  .category-box li{
+    height: 145px;
+    width: 24%;
+  }
 
+  .category-box .rectangle {
+    height: 147px;
+    width: 49%;
+  }
+
+  #featured{
+    height: 660px;
+  }
+
+  .main-carousel {
+    height: 53%;
+  }
+
+  .carousel-cell{
+    width: 50%;
+  }
+
+  .carousel-cell img {
+    height: 230px;
+  }
+
+  .category{
+    font-size: 0.8rem;
+  }
+
+  .name{
+    width: 75%;
+    /*font-size: 1.8rem;*/
+    position: relative;
+    left: 13%;
+  }
+
+  .name a{
+    font-size: 1.8rem;
+  }
+  
   footer {
     justify-content: space-between;
     align-items: center;
