@@ -482,6 +482,7 @@ footer {
   /*.container{
     max-width: 600px;
   }*/
+
   .header-pics{
     position: absolute;
     width: 100%;
@@ -515,6 +516,18 @@ footer {
   
   .hero h1{
     margin-top: 1rem;
+  }
+
+  .tag{
+    height: 250px;
+  }
+
+  .tag h2{
+    font-size: 2.6rem;
+  }
+
+  .tag p{
+    font-size: 1.2rem;
   }
 
   footer {
