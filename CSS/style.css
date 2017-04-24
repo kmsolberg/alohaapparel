@@ -49,7 +49,7 @@
          url('../fonts/raleway-light-webfont.woff') format('woff'),
          url('../fonts/raleway-light-webfont.ttf') format('truetype'),
          url('../fonts/raleway-light-webfont.svg#ralewaylight') format('svg');
-    font-weight: lighter;
+    font-weight: normal;
     font-style: normal;
 }
 
@@ -60,7 +60,7 @@
          url('../fonts/raleway-lightitalic-webfont.woff') format('woff'),
          url('../fonts/raleway-lightitalic-webfont.ttf') format('truetype'),
          url('../fonts/raleway-lightitalic-webfont.svg#ralewaylight_italic') format('svg');
-    font-weight: lighter;
+    font-weight: normal;
     font-style: italic;
 }
 
@@ -71,7 +71,7 @@
          url('../fonts/raleway-medium-webfont.woff') format('woff'),
          url('../fonts/raleway-medium-webfont.ttf') format('truetype'),
          url('../fonts/raleway-medium-webfont.svg#ralewaymedium') format('svg');
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
 }
 
@@ -82,7 +82,7 @@
          url('../fonts/raleway-mediumitalic-webfont.woff') format('woff'),
          url('../fonts/raleway-mediumitalic-webfont.ttf') format('truetype'),
          url('../fonts/raleway-mediumitalic-webfont.svg#ralewaymedium_italic') format('svg');
-    font-weight: normal;
+    font-weight: bold;
     font-style: italic;
 }
 
@@ -91,7 +91,12 @@
 }
 
 *{
-  box-sizing: border-box
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+p{
+  font-family: 'raleway';
 }
 
 .bold {
@@ -103,34 +108,33 @@
 }
 
 body{
-  font-size: 16px;
+  font-size: 1rem;
   font-family: 'raleway';
   font-weight: lighter;
 }
 
 .header-pics img {
-  height: 65px;
-  padding: 0px 10px;
+  height: 4.1rem;
+  padding: 0rem .6rem;
 }
 
 .header-pics {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  padding: 10px 0px 15px 0px;
+  padding: .6rem 0rem .9rem 0rem;
 }
 
 .header-menu {
   justify-content: center;
   border-top: 2px solid #d7d7d7;
-  padding: 20px 0px;
+  padding: 1.25rem 0rem;
   flex: 1 2 90%;
   display: flex;
   font-family: 'raleway';
-  font-weight: lighter;
   color: #e2574c;
   letter-spacing: .5px;
-  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .nav ul{
@@ -152,32 +156,30 @@ header ul li {
 }
 
 .container{
-  /*max-width: 480px;*/
-  min-width: 320px;
+  min-width: 20rem;
   margin: 0 auto;
   width: 100%;
 }
 
 .hero {
-  display: flex;
-  text-align: center;
-  height: 525px;
-  background-image: linear-gradient(rgba(0,130,170,.15),rgba(0,130,170,.15)), url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
-  background-repeat: no-repeat, no-repeat, repeat;
-  background-position: 0, center 80px, 239px 0px;
-  background-size: auto auto, auto 480px, auto 525px;
-  position: relative;
-  flex-flow: column nowrap;
-  justify-content: center;
+    display: flex;
+    text-align: center;
+    height: 34.375rem;
+    background-image: linear-gradient(rgba(0,130,127,.3),rgba(0,130,170,.15)), url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-position: 0, center 5rem, 97.9rem 0rem;
+    background-size: auto auto, auto 30rem, auto 34.81rem;
+    position: relative;
+    flex-flow: column nowrap;
+    justify-content: center;
 }
 
 .hero h3 {
   color: white;
   font-family: "raleway";
   font-weight: bold;
-  font-size: italic;
   font-size: 1.4rem;
-  text-shadow: 2px 2px 4px grey;
+  text-shadow: 1px 1px 2px #969696;
 }
 
 .hero h1 {
@@ -185,26 +187,20 @@ header ul li {
   font-family: 'playfairdisplay';
   font-weight: lighter;
   font-size: 3rem;
-  padding: 0 3rem;
-  margin: 0;
-  text-shadow: 2px 2px 4px grey;
+  padding: 2rem 4rem;
+  text-shadow: 1px 1px 2px #2d2d2d;
 }
 
 h2 {
   font-family: 'playfairdisplay';
-  font-size: 3.1rem;
+  font-size: 2.8rem;
   text-align: center;
-}
-
-p {
-  font-size: 1rem;
-  color: #969696;
 }
 
 .tag {
   text-align: center;
-  line-height: 2.5em;
-  height: 345px;
+  line-height: 2.5rem;
+  height: 22.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -216,6 +212,7 @@ p {
 
 .tag p{
   font-size: 1.3rem;
+  font-weight: lighter;
 }
 
 .category-box ul {
@@ -235,7 +232,7 @@ p {
   justify-content: center;
   align-items: center;
   width: 50%;
-  border: white 2px solid;
+  border: white .3rem solid;
   background-repeat: no-repeat;
   flex: 0 0 50%;
   background-size: 100% auto;
@@ -255,36 +252,44 @@ p {
   flex: 0 0 100%;
 }
 
-.mens {
+li.mens {
   background-image: url(../images/mens-category.jpg);
+  border-left-style: hidden;
+  border-right-style: hidden;
 }
 
-.trends {
+li.trends {
   background-image: url(../images/trends-category.jpg);
+  border-left-style: hidden;
 }
 
-.glasses {
+li.glasses {
   background-image: url(../images/glasses-category.jpg);
+  border-right-style: hidden;
 }
 
-.sale {
+li.sale {
   background-image: url(../images/sale-category.jpg);
+  border-left-style: hidden;
 }
 
-.bags{
+li.bags{
   background-image: url(../images/bags-category.jpg);
+  border-right-style: hidden;
 }
 
-.womens {
+li.womens {
   background-image: url(../images/womens-category.jpg);
+  border-left-style: hidden;
+  border-right-style: hidden;
 }
 
 #featured {
-  height: 800px;
+  height: 50rem;
 }
 
 #featured h2 {
-  padding: 70px 0px;
+  padding: 4.38rem 0rem;
   font-weight: lighter;
 }
 
@@ -293,23 +298,23 @@ p {
   color: #969696;
   font-family: 'raleway';
   font-weight: bold;
-  padding: 20px 0px;
+  padding: 1.25rem 0rem;
 }
 
 .name a{
   color: #e2574c;
   font-family: "playfairdisplay";
   text-decoration: none;
-  font-weight: 200px;
+  font-weight: lighter;
   font-size: 1.5rem;
-  padding: 20px 0px;
+  padding: 1.25rem 0rem;
 }
 
 .price {
   font-size: 1.2rem;
   color: #969696;
   font-family: 'raleway';
-  padding: 20px 0px;
+  padding: 1.25rem 0rem;
 }
 
 .main-carousel {
@@ -323,7 +328,7 @@ p {
 }
 
 .carousel-cell img{
-  height: 400px;
+  height: 25rem;
 }
 
 .flickity-prev-next-button {
@@ -331,7 +336,7 @@ p {
 }
 
 .flickity-page-dots {
-  bottom: -90px
+  bottom: -5.63rem;
 }
 
 .flickity-page-dots .dot {
@@ -346,27 +351,27 @@ p {
 .sign_up {
   background-image: url(../images/wave-bkgd.jpg);
   color: white;
-  height: 425px;
+  height: 26.56rem;
   background-position: right bottom;
-  background-size: 1800px;
+  background-size: 112.5rem;
   position: relative;
   font-family: 'raleway';
   font-weight: lighter;
   display: flex;
   text-align: center;
   flex-flow: column wrap;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .sign_up h2{
-  padding: 55px 0px;
+  padding: 3.44rem 0rem;
 }
 
 .sign_up p {
-  line-height: 2em;
+  line-height: 2rem;
   font-size: 1.2rem;
   color: white;
-  padding-bottom: 30px;
+  padding-bottom: 1.88rem;
 }
 
 .subscribe-button {
@@ -381,10 +386,10 @@ p {
 
 input[type="email"] {
   color: #969696;
-  padding: 20px 210px 20px 20px;
+  padding: 1.25rem 13.13rem 1.25rem 1.25rem;
   border: 1px solid #d7d7d7;
-  border-radius: 30px;
-  font-size: 18px;
+  border-radius: 1.875rem;
+  font-size: 1.125rem;
   font-family: 'raleway';
   font-weight: lighter;
   width: 103%
@@ -394,12 +399,12 @@ button {
   border: 0;
   background-color: #e2574c;
   color: white;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: 'raleway';
   font-weight: lighter;
-  padding: 15px 15px;
-  border-radius: 30px;
-  width: 8em;
+  padding: 0.9rem;
+  border-radius: 1.875rem;
+  width: 8rem;
   position: absolute;
   align-self: flex-end;
 }
@@ -414,24 +419,24 @@ button:focus {
 
 footer {
   background-color: #242424;
-  margin-top: 10px;
-  height: 330px;
+  margin-top: .625rem;
+  height: 20.63rem;
   width: 100%;
 }
 
 .contact-info {
   color: white;
-  line-height: 1.5em;
+  line-height: 1.5rem;
   font-family: 'playfairdisplay';
-  font-size: 18px;
+  font-size: 1.125rem;
   display: flex;
   flex-flow: column wrap;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 3.125rem;
 }
 
 .contact{
-  padding: 10px 0px;
+  padding: .625rem 0rem;
 }
 
 .contact-info a{
@@ -447,16 +452,16 @@ footer {
 }
 
 .social-media {
-  line-height: 2em;
-  font-size: 18px;
+  line-height: 2rem;
+  font-size: 1.125rem;
   display: flex;
   justify-content: center;
   margin: 0;
 }
 
 .social-media li {
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
   text-align: center;
 }
 
@@ -474,6 +479,10 @@ footer {
 }
 
 @media all and (min-width: 600px) {
+  *{
+    font-size: 16px;
+  }
+
   h2 {
     font-size: 2.5rem;
   }
@@ -482,16 +491,16 @@ footer {
     position: absolute;
     z-index: -1;
     width: 100%;
-    height: 85px;
+    height: 5.31rem;
     align-items: center;    
   }
 
   .header-pics img {
-    height: 50px;
+    height: 3.125rem;
   }
 
   .header-menu{
-    height: 85px;
+    height: 5.31rem;
     align-items: center;
     width: 70%;
     border: none;
@@ -502,9 +511,9 @@ footer {
   }
 
   .hero {
-    height: 400px;
-    background-position: 0px, center 62px, 293px 0px;
-    background-size: auto auto, auto 370px, auto 410px;
+    height: 25rem;
+    background-position: 0rem, center 3.88rem, 18.31rem 0rem;
+    background-size: auto auto, auto 23.1rem, auto 25.6rem;
   }
 
   .hero h3{
@@ -516,7 +525,7 @@ footer {
   }
 
   .tag{
-    height: 300px;
+    height: 18.8rem;
   }
 
   .tag h2{
@@ -535,11 +544,31 @@ footer {
   }
 
   .category-box .rectangle {
-   flex: 0 0 50%
+   flex: 0 0 50%;
+  }
+
+  li.mens {
+  background-image: url(../images/mens-category.jpg);
+  border-right-style: solid;
+  }
+
+li.trends {
+  background-image: url(../images/trends-category.jpg);
+  border-left-style: solid;
+  }
+
+li.bags{
+  background-image: url(../images/bags-category.jpg);
+  border-right-style: solid;
+  }
+
+li.womens {
+  background-image: url(../images/womens-category.jpg);
+  border-left-style: solid;
   }
 
   #featured{
-    height: 660px;
+    height: 41.25rem;
   }
 
   .main-carousel {
@@ -551,7 +580,7 @@ footer {
   }
 
   .carousel-cell img {
-    height: 230px;
+    height: 14.4rem;
   }
 
   .category{
@@ -574,18 +603,18 @@ footer {
   }
 
   .subscribe-button{
-    width: 435px;
-    margin: 20px auto;
+    width: 27.19rem;
+    margin: 1.25rem auto;
   }
 
   .sign_up {
-    height: 375px;
+    height: 23.4rem;
     background-position: right bottom;
-    background-size: 1600px;
+    background-size: 100rem;
   }
 
   .sign_up h2{
-    padding: 65px 0 20px 0;
+    padding: 4.1rem 0 1.25rem 0;
   }
 
   .sign_up p{
@@ -596,34 +625,34 @@ footer {
   
   input[type="email"] {
     width: 103%;
-    padding: 15px;
+    padding: 0.95rem;
   }
 
   button {
-    padding: 12px 20px;
+    padding: 0.75rem 0.8rem;
   }
 
   footer {
     justify-content: space-between;
     display: flex;
     flex-direction: row;
-    height: 245px;
+    height: 15.3rem;
   }
 
   .contact-info{
     text-align: left;
     align-self: center;
-    padding: 10px;
+    padding: 0.625rem;
     line-height: 1.3em;
   }
 
  .social-media{
     line-height: 2em;
     display: flex;
-    margin: 15px;
+    margin: 0.94rem;
     flex-direction: column;
     align-items: flex-start;
-    width: 145px;
+    width: 9.1rem;
  }
 
  .social-media li {
