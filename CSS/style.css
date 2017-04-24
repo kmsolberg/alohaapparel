@@ -395,7 +395,7 @@ input[type="email"] {
   font-size: 18px;
   font-family: 'raleway';
   font-weight: lighter;
-  width: 100%
+  width: 103%
 }
 
 button {
@@ -407,9 +407,9 @@ button {
   font-weight: lighter;
   padding: 15px 15px;
   border-radius: 30px;
-  width: 25%;
+  width: 8em;
   position: absolute;
-  right: 12%;
+  align-self: flex-end;
 }
 
 #email:focus {
@@ -599,13 +599,12 @@ footer {
   }
   
   input[type="email"] {
-    width: 90%;
+    width: 103%;
     padding: 15px;
   }
 
   button {
-    padding: 12px;
-    right: 15%;
+    padding: 12px 20px;
   }
 
   footer {
@@ -617,12 +616,15 @@ footer {
   .contact-info{
     text-align: left;
     align-self: center;
-    padding: 0;
- }
+    padding: 10px;
+  }
 
  .social-media{
-   display: list-item;
-   width: initial;
+    line-height: 2em;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    flex-direction: column;
  }
 
  .social-media li {
