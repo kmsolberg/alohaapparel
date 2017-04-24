@@ -712,6 +712,10 @@ li.womens {
     height: 16rem;
   }
 
+  .tag p{
+    width: 50%;
+  }
+
   #featured{
     height: 39rem;
   }
@@ -730,7 +734,7 @@ li.womens {
 
   .sign_up{
     height: 20.5rem;
-    background-size: 82rem;
+    background-size: 90rem;
     margin-bottom: 0.5rem;
   }
 
@@ -739,7 +743,6 @@ li.womens {
   }
 
   input[type="email"] {
-    
     font-size: 1rem;
   }
 
