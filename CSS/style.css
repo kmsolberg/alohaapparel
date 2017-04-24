@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'playfair';
+    font-family: 'playfairdisplay';
     src: url('../fonts/playfairdisplay-bold-webfont.eot');
     src: url('../fonts/playfairdisplay-bold-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/playfairdisplay-bold-webfont.woff') format('woff'),
@@ -10,7 +10,7 @@
 }
 
 @font-face {
-    font-family: 'playfair';
+    font-family: 'playfairdisplay';
     src: url('../fonts/playfairdisplay-bolditalic-webfont.eot');
     src: url('../fonts/playfairdisplay-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/playfairdisplay-bolditalic-webfont.woff') format('woff'),
@@ -21,7 +21,7 @@
 }
 
 @font-face {
-    font-family: 'playfair';
+    font-family: 'playfairdisplay';
     src: url('../fonts/playfairdisplay-italic-webfont.eot');
     src: url('../fonts/playfairdisplay-italic-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/playfairdisplay-italic-webfont.woff') format('woff'),
@@ -32,7 +32,7 @@
 }
 
 @font-face {
-    font-family: 'playfair';
+    font-family: 'playfairdisplay';
     src: url('../fonts/playfairdisplay-regular-webfont.eot');
     src: url('../fonts/playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/playfairdisplay-regular-webfont.woff') format('woff'),
@@ -71,7 +71,7 @@
          url('../fonts/raleway-medium-webfont.woff') format('woff'),
          url('../fonts/raleway-medium-webfont.ttf') format('truetype'),
          url('../fonts/raleway-medium-webfont.svg#ralewaymedium') format('svg');
-    font-weight: bold;
+    font-weight: normal;
     font-style: normal;
 }
 
@@ -82,7 +82,7 @@
          url('../fonts/raleway-mediumitalic-webfont.woff') format('woff'),
          url('../fonts/raleway-mediumitalic-webfont.ttf') format('truetype'),
          url('../fonts/raleway-mediumitalic-webfont.svg#ralewaymedium_italic') format('svg');
-    font-weight: bold;
+    font-weight: normal;
     font-style: italic;
 }
 
@@ -94,11 +94,11 @@
   box-sizing: border-box
 }
 
-strong {
-  font-weight: 700;
+.bold {
+  font-weight: bold;
 }
 
-cite, em {
+.italic {
   font-style: italic;
 }
 
@@ -130,7 +130,7 @@ body{
   font-weight: lighter;
   color: #e2574c;
   letter-spacing: .5px;
-  font-weight: 900;
+  font-weight: bold;
 }
 
 .nav ul{
@@ -175,28 +175,30 @@ header ul li {
   color: white;
   font-family: "raleway";
   font-weight: bold;
+  font-size: italic;
   font-size: 1.4rem;
+  text-shadow: 2px 2px 4px grey;
 }
 
 .hero h1 {
   color: white;
-  font-family: 'playfair_display';
+  font-family: 'playfairdisplay';
   font-weight: lighter;
   font-size: 3rem;
   padding: 0 3rem;
   margin: 0;
+  text-shadow: 2px 2px 4px grey;
 }
 
 h2 {
-  font-family: 'playfair_display';
+  font-family: 'playfairdisplay';
   font-size: 3.1rem;
-  font-weight: lighter;
-  font-style: italic;
   text-align: center;
 }
 
 p {
   font-size: 1rem;
+  color: #969696;
 }
 
 .tag {
@@ -240,6 +242,7 @@ p {
   background-position: center;
   height: 0;
   padding: 24% 0;
+  text-shadow: 2px 2px 4px grey;  
 }
 
 .category-box a{
@@ -293,14 +296,9 @@ p {
   padding: 20px 0px;
 }
 
-/*.name {
-  font-family: "playfair_displayregular";
-  color: #e2574c;
-}*/
-
 .name a{
   color: #e2574c;
-  font-family: "playfair_display";
+  font-family: "playfairdisplay";
   text-decoration: none;
   font-weight: 200px;
   font-size: 1.5rem;
@@ -311,7 +309,6 @@ p {
   font-size: 1.2rem;
   color: #969696;
   font-family: 'raleway';
-  font-weight: bold;
   padding: 20px 0px;
 }
 
@@ -337,6 +334,15 @@ p {
   bottom: -90px
 }
 
+.flickity-page-dots .dot {
+  background: rgb(105, 105, 105);
+  opacity: 1;
+}
+
+.flickity-page-dots .dot.is-selected {
+  background: black;
+}
+
 .sign_up {
   background-image: url(../images/wave-bkgd.jpg);
   color: white;
@@ -354,25 +360,11 @@ p {
 
 .sign_up h2{
   padding: 55px 0px;
-  /*position: absolute;*/
-  /*top: 22%;
-  left: 50%;*/
-  /*margin-right: -50%;
-  transform: translate(-50%, -50%);*/
 }
 
 .sign_up p {
-  /*position: absolute;*/
-  /*top: 52%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  padding: 30px 10px;*/
-  /*width: 95%;*/
   line-height: 2em;
   font-size: 1.2rem;
-  /*margin-left: auto;*/
   color: white;
   padding-bottom: 30px;
 }
@@ -424,14 +416,13 @@ footer {
   background-color: #242424;
   margin-top: 10px;
   height: 330px;
-  position: absolute;
   width: 100%;
 }
 
 .contact-info {
   color: white;
   line-height: 1.5em;
-  font-family: 'playfair_display';
+  font-family: 'playfairdisplay';
   font-size: 18px;
   display: flex;
   flex-flow: column wrap;
@@ -483,9 +474,6 @@ footer {
 }
 
 @media all and (min-width: 600px) {
-  /*.container{
-    max-width: 600px;
-  }*/
   h2 {
     font-size: 2.5rem;
   }
@@ -507,7 +495,6 @@ footer {
     align-items: center;
     width: 70%;
     border: none;
-    /*z-index: -1; position:relative*/
   }
 
   header ul li {
@@ -519,6 +506,7 @@ footer {
     background-position: 0px, center 62px, 293px 0px;
     background-size: auto auto, auto 370px, auto 410px;
   }
+
   .hero h3{
     font-size: 1.2rem;
   }
@@ -528,7 +516,7 @@ footer {
   }
 
   .tag{
-    height: 250px;
+    height: 300px;
   }
 
   .tag h2{
@@ -537,7 +525,10 @@ footer {
 
   .tag p{
     font-size: 1.2rem;
+    width: 80%;
+    margin: 0 auto;
   }
+
   .category-box li{
     flex: 0 0 25%;
     padding: 12% 0;
@@ -569,27 +560,32 @@ footer {
 
   .name{
     width: 75%;
-    /*font-size: 1.8rem;*/
     position: relative;
     left: 13%;
   }
 
   .name a{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+  }
+
+  .price{
+    font-size: 0.8rem;
+    font-weight: lighter;
   }
 
   .subscribe-button{
     width: 435px;
+    margin: 20px auto;
   }
 
   .sign_up {
     height: 375px;
-    background-position: 1000px 375px;
-    background-size: 1500px;
+    background-position: right bottom;
+    background-size: 1600px;
   }
 
   .sign_up h2{
-    padding: 75px 0 30px 0;
+    padding: 65px 0 20px 0;
   }
 
   .sign_up p{
@@ -611,20 +607,23 @@ footer {
     justify-content: space-between;
     display: flex;
     flex-direction: row;
+    height: 245px;
   }
 
   .contact-info{
     text-align: left;
     align-self: center;
     padding: 10px;
+    line-height: 1.3em;
   }
 
  .social-media{
     line-height: 2em;
     display: flex;
-    justify-content: center;
-    margin: 0;
+    margin: 15px;
     flex-direction: column;
+    align-items: flex-start;
+    width: 145px;
  }
 
  .social-media li {
@@ -641,20 +640,7 @@ footer {
 
 @media all and (min-width: 1240px) {
 
-  .header-pics{
-    position: absolute;
-  }
-
-  .header-menu{
-    border-top: 0;
-  }
-
-  footer {
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-  }
-  .hide {
-    visibility: visible;
+  .carousel-cell{
+    width: 25%;
   }
 }
