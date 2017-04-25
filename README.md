@@ -5,17 +5,17 @@ An intoductory project creating a homepage for the fictional Aloha Apparel Co. T
 ## Technologies Used:
 This project was designed to use the basics of HTML, CSS, along with:
 
-- [Google Chrome] (https://www.google.com/chrome/) 
+- [Google Chrome](https://www.google.com/chrome/) 
 - Gogole Chrome Developer Tools
-- @font-face generated from [Font Squirrel] (https://www.fontsquirrel.com/)
-- [Font Awesome] (http://fontawesome.io/)
+- @font-face generated from [Font Squirrel](https://www.fontsquirrel.com/)
+- [Font Awesome](http://fontawesome.io/)
 - JavaScript
-- [jQuery] (https://jquery.com/)
-- jQuery plugin [Flickity] (http://flickity.metafizzy.co/)
-- HTML Validator (https://validator.w3.org/)
-- CSS Validator (https://jigsaw.w3.org/css-validator/)
-- Vendor Prefix Generator [Autoprefixer] (https://autoprefixer.github.io/)
-- CSS Reset, [Eric Meyer's Reset CSS] (http://cssreset.com/scripts/eric-meyer-reset-css/)
+- [jQuery](https://jquery.com/)
+- jQuery plugin [Flickity](http://flickity.metafizzy.co/)
+- HTML Validator(https://validator.w3.org/)
+- CSS Validator(https://jigsaw.w3.org/css-validator/)
+- Vendor Prefix Generator [Autoprefixer](https://autoprefixer.github.io/)
+- CSS Reset, [Eric Meyer's Reset CSS](http://cssreset.com/scripts/eric-meyer-reset-css/)
 
 ## Personal Learnings
 - Having a well laid-out and planned HTML is essential for having a concise, organized CSS.  I was originally too liberal with my classes and it became very complicated when I had to build in reponsiveness to the site.  I did not originally appreicate that having less code was better.
