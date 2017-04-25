@@ -1,6 +1,6 @@
 # Project 1: Aloha Apparel Co.
 
-An intoductory project creating a homepage for the fictional Aloha Apparel Co. This project was my first attempt at building a website.
+An intoductory project creating a homepage for the fictional Aloha Apparel Co. This project was my first attempt at building a website.  It was written as a portfolio piece to learn the fundamentals of web design.
 
 ## Technologies Used:
 This project was designed to use the basics of HTML, CSS, along with:
@@ -12,8 +12,8 @@ This project was designed to use the basics of HTML, CSS, along with:
 - JavaScript
 - [jQuery](https://jquery.com/)
 - jQuery plugin [Flickity](http://flickity.metafizzy.co/)
-- HTML Validator(https://validator.w3.org/)
-- CSS Validator(https://jigsaw.w3.org/css-validator/)
+- HTML Validator (https://validator.w3.org/)
+- CSS Validator (https://jigsaw.w3.org/css-validator/)
 - Vendor Prefix Generator [Autoprefixer](https://autoprefixer.github.io/)
 - CSS Reset, [Eric Meyer's Reset CSS](http://cssreset.com/scripts/eric-meyer-reset-css/)
 
