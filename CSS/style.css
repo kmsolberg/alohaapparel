@@ -107,14 +107,8 @@ p{
   font-style: italic;
 }
 
-body{
-  font-size: 1rem;
-  font-family: 'raleway';
-  font-weight: lighter;
-}
-
 .header-pics img {
-  height: 4.1rem;
+  height: 4rem;
   padding: 0rem .6rem;
 }
 
@@ -122,7 +116,7 @@ body{
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  padding: .6rem 0rem .9rem 0rem;
+  padding: 1rem 0rem .1rem .5rem;
 }
 
 .header-menu {
@@ -152,13 +146,11 @@ header a:hover {
 
 header ul li {
   display: inline-block;
-  padding: 0 1rem;
+  padding: 0 0.5rem;
 }
 
 .container{
-  min-width: 20rem;
   margin: 0 auto;
-  width: 100%;
 }
 
 .hero {
@@ -188,7 +180,7 @@ header ul li {
   font-family: 'playfairdisplay';
   font-weight: lighter;
   font-size: 3rem;
-  padding: 2rem 4rem;
+  padding: 2rem 0rem;
   text-shadow: 1px 1px 2px #2d2d2d;
 }
 
@@ -224,14 +216,9 @@ h2 {
 }
 
 .category-box li{
-  display: inline-block;
   text-align: center;
   font-family: 'raleway';
-  font-weight: bold;
   font-size: 2rem;
-  color: #969696;
-  justify-content: center;
-  align-items: center;
   width: 50%;
   border: white .3rem solid;
   background-repeat: no-repeat;
@@ -290,7 +277,7 @@ li.womens {
 }
 
 #featured h2 {
-  padding: 4.38rem 0rem;
+  padding: 3rem 0rem;
   font-weight: lighter;
 }
 
@@ -350,15 +337,15 @@ li.womens {
   background: black;
 }
 
-.sign_up {
+#updates{
   background-image: url(../images/wave-bkgd.jpg);
   color: white;
   height: 26.56rem;
   background-position: right bottom;
-  background-size: 112.5rem;
-  position: relative;
-  /*font-family: 'raleway';*/
-  /*font-weight: lighter;*/
+  background-size: 90.5rem;
+}
+
+.sign_up {
   display: flex;
   text-align: center;
   flex-flow: column wrap;
@@ -366,8 +353,8 @@ li.womens {
 }
 
 .sign_up h2{
-  padding: 3.44rem 0rem;
-  text-shadow: 0px 0px 5px darkslategrey;;  
+  padding: 3rem 0rem;
+  text-shadow: 1px 1px 2px #969696;  
 }
 
 .sign_up p {
@@ -390,7 +377,7 @@ li.womens {
 
 input[type="email"] {
   color: #969696;
-  padding: 1.25rem 13.13rem 2rem 1.25rem;
+  padding: 1rem 2rem;
   border: 1px solid #d7d7d7;
   border-radius: 2rem;
   font-size: 1rem;
@@ -428,23 +415,29 @@ footer {
   width: 100%;
 }
 
-.contact-info {
+.footer {
   color: white;
   line-height: 1.5rem;
   font-size: 1.125rem;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   text-align: center;
-  padding-top: 3.125rem;
 }
 
-.contact-info p{
+.contact-info p {
   font-family: 'playfairdisplay';  
 }
 
 .contact{
   padding: .625rem 0rem;
 }
+
+.contact-info{
+    line-height: 1.3rem;
+    font-size: 1rem;
+    align-self: center;
+    padding: 3rem 0;
+  }
 
 .contact-info a{
   color: white;
@@ -488,6 +481,10 @@ footer {
 @media all and (min-width: 600px) {
   *{
     font-size: 16px;
+  }
+
+  .container{
+    width: 95%;
   }
 
   h2 {
@@ -558,30 +555,30 @@ footer {
   border-top-style: solid;
   }
 
-li.trends {
-  background-image: url(../images/trends-category.jpg);
-  border-left-style: solid;
-  border-top-style: solid;
+  li.trends {
+    background-image: url(../images/trends-category.jpg);
+    border-left-style: solid;
+    border-top-style: solid;
   }
 
-li.glasses{
-  border-top-style: solid;
-}
-
-li.bags{
-  background-image: url(../images/bags-category.jpg);
-  border-right-style: solid;
-  border-bottom-style: solid;
+  li.glasses{
+    border-top-style: solid;
   }
 
-li.sale{
-  border-bottom-style: solid;  
-}
+  li.bags{
+    background-image: url(../images/bags-category.jpg);
+    border-right-style: solid;
+    border-bottom-style: solid;
+  }
 
-li.womens {
-  background-image: url(../images/womens-category.jpg);
-  border-left-style: solid;
-  border-bottom-style: solid;  
+  li.sale{
+    border-bottom-style: solid;  
+  }
+
+  li.womens {
+    background-image: url(../images/womens-category.jpg);
+    border-left-style: solid;
+    border-bottom-style: solid;  
   }
 
   #featured{
@@ -624,20 +621,23 @@ li.womens {
     margin: 1.25rem auto;
   }
 
+  #updates{
+    height: 23.4rem;    
+  }
+
   .sign_up {
-    height: 23.4rem;
     background-position: right bottom;
     background-size: 100rem;
   }
 
   .sign_up h2{
-    padding: 4.1rem 0 1.25rem 0;
+    padding: 4rem 0 1.25rem 0;
   }
 
   .sign_up p{
     width: 92%;
     align-self: center;
-    padding-bottom: 0;
+    padding: 1rem 0;
   }
   
   input[type="email"] {
@@ -646,41 +646,35 @@ li.womens {
   }
 
   button {
-    
     font-size: 1rem;
     font-weight: bold;
   }
 
-  footer {
-    justify-content: space-between;
-    display: flex;
-    flex-direction: row;
-    height: 18rem;
+  .footer {
+    justify-content: center;
+    height: 21rem;
+    width: 95%;
+    flex-flow: column wrap;
   }
 
   .contact-info{
     text-align: left;
-    align-self: center;
-    padding: 0.625rem;
     line-height: 1.3rem;
     font-size: 1rem;
+    align-self: flex-start;
   }
 
  .social-media{
     line-height: 2rem;
-    display: flex;
-    margin: 0.94rem;
     flex-direction: column;
-    align-items: flex-start;
-    width: 9.1rem;
+    align-self: flex-end;
     font-size: 1rem;
  }
 
  .social-media li {
-  width: auto;
-  height: auto;
-  text-align: center;
-}
+    width: auto;
+    text-align: left;
+  }
 
   .hide {
     visibility: visible;
@@ -689,13 +683,22 @@ li.womens {
 
 
 @media all and (min-width: 1240px) {
+  .container{
+    max-width: 1240px;
+    margin: 0 auto;
+  }
+  
   .nav{
     word-spacing: 1rem;
   }
   
+  .header-pics {
+    left: 2%;
+    right: 2%;
+  }
+
   .header-pics img {
     height: 3.5em;
-    padding: 0rem 3rem;
   }
 
   .hero {
@@ -728,18 +731,30 @@ li.womens {
     width: 25%;
   }
 
-.price {
+  .price {
   font-size: 0.9rem;
-}
+  }
+
+  #updates{
+    height: 20.5rem;    
+  }
 
   .sign_up{
-    height: 20.5rem;
     background-size: 90rem;
     margin-bottom: 0.5rem;
   }
 
+  .sign_up h2{
+    font-size: 2.2rem;
+  }
+
   .sign_up p {
     width: 55.5%;
+    padding: 0.5rem 0;
+  }
+
+  .subscribe-button{
+    width: 26.5rem;
   }
 
   input[type="email"] {
@@ -750,8 +765,11 @@ li.womens {
     height: 17.5rem;
   }
 
+  .footer{
+    height: 17.5rem;
+  }
+
   .contact-info {
-    padding-left: 3rem;
     line-height: 1.5rem;
   }
 
