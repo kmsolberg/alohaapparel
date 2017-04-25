@@ -353,11 +353,11 @@ li.womens {
 }
 
 #updates{
-  background-image: url(../images/wave-bkgd.jpg);
+  background-image: linear-gradient(rgba(185,199,199,0.6),rgba(139,208,255,.3)), url(../images/wave-bkgd.jpg);
   color: white;
   height: 26.5rem;
-  background-position: right bottom;
-  background-size: 90.5rem;
+  background-position: 0, right bottom;
+  background-size: auto, 90.5rem;
 }
 
 .sign-up {
