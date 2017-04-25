@@ -119,7 +119,7 @@ p{
       flex-flow: row nowrap;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  padding: 1rem 0rem .1rem .5rem;
+  padding: 1.5rem 0rem .5rem .5rem;
 }
 
 .header-menu {
@@ -132,8 +132,8 @@ p{
   display: -ms-flexbox;
   display: flex;
   font-family: 'raleway';
-  letter-spacing: .5px;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  word-spacing: -.25rem;
 }
 
 .nav ul{
@@ -185,7 +185,8 @@ header ul li {
   color: white;
   font-family: 'playfairdisplay';
   font-weight: lighter;
-  font-size: 3rem;
+  font-size: 2.7rem;
+  text-align: center;
   padding: 2rem 0rem;
   text-shadow: 1px 1px 2px #2d2d2d;
 }
@@ -231,6 +232,7 @@ h2 {
 .category-box li{
   text-align: center;
   font-family: 'raleway';
+  font-weight: bold;
   font-size: 2rem;
   width: 50%;
   border: white .3rem solid;
@@ -313,6 +315,10 @@ li.womens {
   padding: 1.25rem 0rem;
 }
 
+.name a:hover{
+  color: #b64036;
+}
+
 .price {
   font-size: 1.2rem;
   color: #969696;
@@ -373,13 +379,15 @@ li.womens {
 .sign-up h2{
   padding: 3rem 0rem;
   text-shadow: 1px 1px 2px #969696;  
+  width: 100%;
 }
 
 .sign-up p {
   line-height: 2rem;
   font-size: 1.2rem;
   color: white;
-  padding-bottom: 1.88rem;
+  padding-bottom: 0.5rem;
+  width: 99%;
 }
 
 .subscribe-button {
@@ -479,6 +487,7 @@ footer {
   -ms-flex-pack: center;
       justify-content: center;
   margin: 0;
+  font-family: "raleway";
 }
 
 .social-media li {
@@ -550,6 +559,7 @@ footer {
   .hero h3{
     font-size: 1.2rem;
     margin-top: 2rem;
+    font-weight: bold;
   }
 
   .tag{
