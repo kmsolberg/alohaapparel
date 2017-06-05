@@ -115,11 +115,10 @@ p{
 .header-pics {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row nowrap;
-      flex-flow: row nowrap;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  padding: 1.5rem 0rem .5rem .5rem;
+  padding: 0.8rem 0;
+  width: 100%;
 }
 
 .screen-reader-text {
@@ -137,19 +136,34 @@ p{
 .header-menu {
   -ms-flex-pack: center;
       justify-content: center;
-  border-top: 2px solid #d7d7d7;
-  padding: 1.25rem 0rem;
   -ms-flex: 1 2 90%;
       flex: 1 2 90%;
   display: -ms-flexbox;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: 'raleway';
   font-size: 1rem;
   word-spacing: -.25rem;
+  position: fixed;
+  top: 0;
+  background: white;
+  width: 100%;
+  z-index: 1000;
 }
 
 .nav ul{
   padding-left: none;
+}
+
+.nav {
+  border-top: 2px solid #d7d7d7; 
+  width: 100%;
+  padding: 1rem 0;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: center;
+  word-spacing: 1rem;   
 }
 
 header a{
@@ -171,19 +185,20 @@ header ul li {
 }
 
 .hero {
-    display: -ms-flexbox;
-    display: flex;
-    height: 34.375rem;
-    background-image: linear-gradient(rgba(0,130,127,.3),rgba(0,130,170,.15)), url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
-    background-repeat: no-repeat, no-repeat, repeat;
-    background-position: 0, center 5rem, 97.9rem 0rem;
-    background-size: auto auto, auto 30rem, auto 34.81rem;
-    -ms-flex-flow: column nowrap;
-        flex-flow: column nowrap;
-    -ms-flex-pack: center;
-        justify-content: center;
-    -ms-flex-align: center;
-        align-items: center;  
+  display: -ms-flexbox;
+  display: flex;
+  height: 30.2rem;
+  background-image: linear-gradient(rgba(0,130,127,.3),rgba(0,130,170,.15)), url(../images/banner-girl.png), url(../images/flower-bkgd.jpg);
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position: 0, center 5rem, 97.9rem 0rem;
+  background-size: auto auto, auto 30rem, auto 34.81rem;
+  -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;  
+  margin-top: 9rem;
 }
 
 .hero h3 {
@@ -205,14 +220,15 @@ header ul li {
 
 h2 {
   font-family: 'playfairdisplay';
-  font-size: 2.8rem;
+  font-size: 2.7rem;
   text-align: center;
+  font-weight: normal;
 }
 
 .tag {
   text-align: center;
   line-height: 2.5rem;
-  height: 22.5rem;
+  height: 20rem;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -245,16 +261,16 @@ h2 {
   text-align: center;
   font-family: 'raleway';
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.7rem;
   width: 50%;
-  border: white .3rem solid;
+  border: white .26rem solid;
   background-repeat: no-repeat;
   -ms-flex: 0 0 50%;
       flex: 0 0 50%;
   background-size: 100% auto;
   background-position: center;
   height: 0;
-  padding: 24% 0;
+  padding: 25% 0;
   text-shadow: 2px 2px 4px grey;  
 }
 
@@ -306,16 +322,16 @@ li.womens {
 }
 
 #featured h2 {
-  padding: 3rem 0rem;
+  margin: 4rem 0;
   font-weight: lighter;
 }
 
 .category {
-  font-size: 0.9rem;
+  padding: 0.75rem 0rem 0.9rem 0;
+  font-size: 0.8rem;
   color: #969696;
   font-family: 'raleway';
   font-weight: bold;
-  padding: 1.25rem 0rem;
 }
 
 .name a{
@@ -323,7 +339,7 @@ li.womens {
   font-family: "playfairdisplay";
   text-decoration: none;
   font-weight: lighter;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   padding: 1.25rem 0rem;
 }
 
@@ -332,10 +348,11 @@ li.womens {
 }
 
 .price {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  font-weight: bold;
   color: #969696;
   font-family: 'raleway';
-  padding: 1.25rem 0rem;
+  padding: 1.5rem 0rem;
 }
 
 .main-carousel {
@@ -552,10 +569,13 @@ footer {
     height: 5.31rem;
     -ms-flex-align: center;
         align-items: center;
-    width: 70%;
-    border: none;
     font-size: .9rem;
     font-weight: bold;
+    width: 100%;
+  }
+
+  .nav{
+    border: none;    
   }
 
   header ul li {
@@ -563,6 +583,7 @@ footer {
   }
 
   .hero {
+    margin-top: 5.3rem;
     height: 25rem;
     background-position: 0rem, center 3.88rem, 18.31rem 0rem;
     background-size: auto auto, auto 23.1rem, auto 25.6rem;
@@ -747,17 +768,13 @@ footer {
     word-spacing: 1rem;
   }
   
-  .header-pics {
-    left: 2%;
-    right: 2%;
-  }
-
   .header-pics img {
     height: 3.5em;
   }
 
   .header-menu{
     font-size: 1.2rem;
+    width: 100%;
   }
 
   .hero {

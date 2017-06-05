@@ -2,6 +2,8 @@
 
 An intoductory project creating a homepage for the fictional Aloha Apparel Co. This project was my first attempt at building a website.  It was written as a portfolio piece to learn the fundamentals of web design.
 
+![Image of Landing Page](/images/home-screenshot.png)
+
 ## Technologies Used:
 This project was designed to use the basics of HTML, CSS, along with:
 

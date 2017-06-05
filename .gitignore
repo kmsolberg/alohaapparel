@@ -11,3 +11,4 @@ ehthumbs.db
 *.Trashes
 # Ignore npm packages
 node_modules/
+.coafile
