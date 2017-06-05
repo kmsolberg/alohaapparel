@@ -1,4 +1,0 @@
-[CSS]
-bears = CSSLintBear, SpaceConsistencyBear
-files = CSS/*.css
-use_spaces = True
