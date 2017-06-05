@@ -95,8 +95,12 @@
   font-size: 14px;
 }
 
+.capitalize{
+  text-transform: uppercase;
+}
+
 p{
-  font-family: 'raleway';
+  font-family: 'raleway', Helvetica, sans-serif;
 }
 
 .bold {
@@ -142,7 +146,7 @@ p{
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'raleway';
+  font-family: 'raleway', Helvetica, sans-serif;
   font-size: 1rem;
   word-spacing: -.25rem;
   position: fixed;
@@ -153,7 +157,7 @@ p{
 }
 
 .nav ul{
-  padding-left: none;
+  padding-left: 0;
 }
 
 .nav {
@@ -210,7 +214,7 @@ header ul li {
 
 .hero h1 {
   color: white;
-  font-family: 'playfairdisplay';
+  font-family: 'playfairdisplay', Lucida Bright, serif;
   font-weight: lighter;
   font-size: 2.7rem;
   text-align: center;
@@ -219,7 +223,7 @@ header ul li {
 }
 
 h2 {
-  font-family: 'playfairdisplay';
+  font-family: 'playfairdisplay', Lucida Bright, serif;
   font-size: 2.7rem;
   text-align: center;
   font-weight: normal;
@@ -259,7 +263,7 @@ h2 {
 
 .category-box li{
   text-align: center;
-  font-family: 'raleway';
+  font-family: 'raleway', Helvetica, sans-serif;
   font-weight: bold;
   font-size: 1.7rem;
   width: 50%;
@@ -318,7 +322,7 @@ li.womens {
 }
 
 #featured {
-  height: 50rem;
+  height: 47rem;
 }
 
 #featured h2 {
@@ -330,7 +334,7 @@ li.womens {
   padding: 0.75rem 0rem 0.9rem 0;
   font-size: 0.8rem;
   color: #969696;
-  font-family: 'raleway';
+  font-family: 'raleway', Helvetica, sans-serif;
   font-weight: bold;
 }
 
@@ -351,7 +355,7 @@ li.womens {
   font-size: 1rem;
   font-weight: bold;
   color: #969696;
-  font-family: 'raleway';
+  font-family: 'raleway', Helvetica, sans-serif;
   padding: 1.5rem 0rem;
 }
 
@@ -374,7 +378,7 @@ li.womens {
 }
 
 .flickity-page-dots {
-  bottom: -5.63rem;
+  bottom: -9.63rem;
 }
 
 .flickity-page-dots .dot {
@@ -387,12 +391,15 @@ li.womens {
   background: black;
 }
 
+#updates {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)), url(../images/wave-bkgd.jpg);
+  background-position: 0, 44% 99%;
+  background-size: auto, 111.5rem;
+}
+
 .sign-up{
-  background-image: linear-gradient(rgba(185,199,199,0.6),rgba(139,208,255,.3)), url(../images/wave-bkgd.jpg);
   color: white;
   height: 26.5rem;
-  background-position: 0, right bottom;
-  background-size: auto, 90.5rem;
 }
 
 .sign-up {
@@ -402,7 +409,7 @@ li.womens {
   -ms-flex-flow: column wrap;
       flex-flow: column wrap;
   margin-bottom: 0.625rem;
-  height: 26.5rem;
+  height: 25.3rem;
 }
 
 .sign-up h2{
@@ -442,7 +449,7 @@ input[type="email"] {
   border: 1px solid #d7d7d7;
   border-radius: 2rem;
   font-size: 1rem;
-  font-family: 'raleway';
+  font-family: 'raleway', Helvetica, sans-serif;
   width: 103%
 }
 
@@ -451,7 +458,7 @@ button {
   background-color: #e2574c;
   color: white;
   font-size: 1.125rem;
-  font-family: 'raleway';
+  font-family: 'raleway', Helvetica, sans-serif;
   border-radius: 1.875rem;
   width: 8rem;
   position: absolute;
@@ -471,7 +478,7 @@ button:focus {
 footer {
   background-color: #242424;
   margin-top: .625rem;
-  height: 20.63rem;
+  height: 19rem;
 }
 
 .footer {
@@ -484,7 +491,7 @@ footer {
 }
 
 .contact-info p {
-  font-family: 'playfairdisplay';  
+  font-family: 'playfairdisplay', Lucida Bright, serif;  
 }
 
 .contact{
@@ -523,6 +530,10 @@ footer {
   width: 2.5rem;
   height: 2.5rem;
   text-align: center;
+}
+
+.ul.social-media.fa-ul {
+  margin-left: 0;
 }
 
 .hide {
@@ -652,7 +663,7 @@ footer {
   }
 
   #featured{
-    height: 41.25rem;
+    height: 36.5rem;
   }
 
   .main-carousel {
@@ -682,8 +693,12 @@ footer {
   }
 
   .price{
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: bold;
+  }
+
+  .flickity-page-dots {
+    bottom: -7.63rem;
   }
 
   .subscribe-button{
@@ -797,10 +812,6 @@ footer {
 
   #featured{
     height: 39rem;
-  }
-
-  #featured h2{
-    padding: 4rem 0;
   }
 
   .carousel-cell{
