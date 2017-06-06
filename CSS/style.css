@@ -214,7 +214,7 @@ header ul li {
 
 .hero h1 {
   color: white;
-  font-family: 'playfairdisplay', Lucida Bright, serif;
+  font-family: 'playfairdisplay', 'Lucida Bright', serif;
   font-weight: lighter;
   font-size: 2.7rem;
   text-align: center;
@@ -223,7 +223,7 @@ header ul li {
 }
 
 h2 {
-  font-family: 'playfairdisplay', Lucida Bright, serif;
+  font-family: 'playfairdisplay', 'Lucida Bright', serif;
   font-size: 2.7rem;
   text-align: center;
   font-weight: normal;
@@ -491,7 +491,7 @@ footer {
 }
 
 .contact-info p {
-  font-family: 'playfairdisplay', Lucida Bright, serif;  
+  font-family: 'playfairdisplay', 'Lucida Bright', serif;  
 }
 
 .contact {
