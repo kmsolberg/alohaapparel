@@ -126,15 +126,15 @@ p{
 }
 
 .screen-reader-text {
-   clip: rect(10px, 10px, 10px, 10px);
-   position: absolute !important;
-   height: 10px;
-   width: 10px;
-   overflow: hidden;
+  clip: rect(10px, 10px, 10px, 10px);
+  position: absolute !important;
+  height: 10px;
+  width: 10px;
+  overflow: hidden;
 }
 
 #main[tabindex="-1"]:focus  {
-   outline: 0;
+  outline: 0;
 }
 
 .header-menu {
@@ -261,7 +261,7 @@ h2 {
       align-items: center;
 }
 
-.category-box li{
+.category-box li {
   text-align: center;
   font-family: 'raleway', Helvetica, sans-serif;
   font-weight: bold;
@@ -278,7 +278,7 @@ h2 {
   text-shadow: 2px 2px 4px grey;  
 }
 
-.category-box a{
+.category-box a {
   color: white;
   text-decoration: none;
 }
@@ -310,7 +310,7 @@ li.sale {
   border-left-style: hidden;
 }
 
-li.bags{
+li.bags {
   background-image: url(../images/bags-category.jpg);
   border-right-style: hidden;
 }
@@ -338,7 +338,7 @@ li.womens {
   font-weight: bold;
 }
 
-.name a{
+.name a {
   color: #e2574c;
   font-family: "playfairdisplay";
   text-decoration: none;
@@ -347,7 +347,7 @@ li.womens {
   padding: 1.25rem 0rem;
 }
 
-.name a:hover{
+.name a:hover {
   color: #b64036;
 }
 
@@ -369,7 +369,7 @@ li.womens {
   text-align: center;  
 }
 
-.carousel-cell img{
+.carousel-cell img {
   height: 25rem;
 }
 
@@ -397,7 +397,7 @@ li.womens {
   background-size: auto, 111.5rem;
 }
 
-.sign-up{
+.sign-up {
   color: white;
   height: 26.5rem;
 }
@@ -412,7 +412,7 @@ li.womens {
   height: 25.3rem;
 }
 
-.sign-up h2{
+.sign-up h2 {
   padding: 3rem 0rem;
   text-shadow: 1px 1px 2px #969696;  
   width: 100%;
@@ -439,7 +439,7 @@ li.womens {
   margin: auto;
 }
 
-input[type="email"]:focus{
+input[type="email"]:focus {
   box-shadow: 1px 1px 10px 1px #b64036;
 }
 
@@ -463,7 +463,7 @@ button {
   width: 8rem;
   position: absolute;
   -ms-flex-item-align: end;
-      align-self: flex-end;
+  align-self: flex-end;
   padding: 0.7rem 0.8rem;
 }
 
@@ -494,24 +494,24 @@ footer {
   font-family: 'playfairdisplay', Lucida Bright, serif;  
 }
 
-.contact{
+.contact {
   padding: .625rem 0rem;
 }
 
-.contact-info{
-    line-height: 1.3rem;
-    padding: 3rem 0;
-  }
+.contact-info {
+  line-height: 1.3rem;
+  padding: 3rem 0;
+}
 
-.contact-info a{
+.contact-info a {
   color: white;
 }
 
-.contact-info a:hover{
+.contact-info a:hover {
   color: #b64036;
 }
 
-.address{
+.address {
   color: #969696;
 }
 
@@ -521,7 +521,7 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
-      justify-content: center;
+  justify-content: center;
   margin: 0;
   font-family: "raleway";
 }
@@ -540,7 +540,7 @@ footer {
   visibility: hidden;
 }
 
-.social-media a{
+.social-media a {
   text-decoration: none;
   color: white;
 }
@@ -550,11 +550,11 @@ footer {
 }
 
 @media all and (min-width: 600px) {
-  *{
+  * {
     font-size: 16px;
   }
 
-  .container{
+  .container {
     width: 95%;
   }
 
@@ -562,13 +562,13 @@ footer {
     font-size: 2.5rem;
   }
   
-  .header-pics{
+  .header-pics {
     position: absolute;
     z-index: -1;
     width: 100%;
     height: 5.31rem;
     -ms-flex-align: center;
-        align-items: center;    
+    align-items: center;    
     padding: 2rem 0;
   }
 
@@ -576,7 +576,7 @@ footer {
     height: 3.125rem;
   }
 
-  .header-menu{
+  .header-menu {
     height: 5.31rem;
     -ms-flex-align: center;
         align-items: center;
@@ -585,7 +585,7 @@ footer {
     width: 100%;
   }
 
-  .nav{
+  .nav {
     border: none;    
   }
 
@@ -600,26 +600,26 @@ footer {
     background-size: auto auto, auto 23.1rem, auto 25.6rem;
   }
 
-  .hero h3{
+  .hero h3 {
     font-size: 1.2rem;
     margin-top: 2rem;
     font-weight: bold;
   }
 
-  .tag{
+  .tag {
     height: 18.8rem;
   }
 
-  .tag h2{
+  .tag h2 {
     font-size: 2.6rem;
   }
 
-  .tag p{
+  .tag p {
     font-size: 1.2rem;
     margin: 0 auto;
   }
 
-  .category-box li{
+  .category-box li {
     -ms-flex: 0 0 25%;
         flex: 0 0 25%;
     padding: 12% 0;
@@ -642,17 +642,17 @@ footer {
     border-top-style: solid;
   }
 
-  li.glasses{
+  li.glasses {
     border-top-style: solid;
   }
 
-  li.bags{
+  li.bags {
     background-image: url(../images/bags-category.jpg);
     border-right-style: solid;
     border-bottom-style: solid;
   }
 
-  li.sale{
+  li.sale {
     border-bottom-style: solid;  
   }
 
@@ -662,7 +662,7 @@ footer {
     border-bottom-style: solid;  
   }
 
-  #featured{
+  #featured {
     height: 36.5rem;
   }
 
@@ -670,7 +670,7 @@ footer {
     height: 53%;
   }
 
-  .carousel-cell{
+  .carousel-cell {
     width: 50%;
   }
 
@@ -678,21 +678,21 @@ footer {
     height: 14.4rem;
   }
 
-  .category{
+  .category {
     font-size: 0.8rem;
   }
 
-  .name{
+  .name {
     width: 75%;
     position: relative;
     left: 13%;
   }
 
-  .name a{
+  .name a {
     font-size: 1.5rem;
   }
 
-  .price{
+  .price {
     font-size: 1rem;
     font-weight: bold;
   }
@@ -701,12 +701,12 @@ footer {
     bottom: -7.63rem;
   }
 
-  .subscribe-button{
+  .subscribe-button {
     width: 23.5rem;
     margin: 1.25rem auto;
   }
 
-  .sign-up{
+  .sign-up {
     height: 23.4rem;    
   }
 
@@ -715,11 +715,11 @@ footer {
     background-size: 100rem;
   }
 
-  .sign-up h2{
+  .sign-up h2 {
     padding: 4rem 0 1.25rem 0;
   }
 
-  .sign-up p{
+  .sign-up p {
     width: 92%;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -746,7 +746,7 @@ footer {
         flex-flow: column wrap;
   }
   
-  .contact-info{
+  .contact-info {
     text-align: left;
     line-height: 1.3rem;
     font-size: 1rem;
@@ -754,7 +754,7 @@ footer {
         align-self: flex-start;
   }
 
- .social-media{
+ .social-media {
     line-height: 2rem;
     -ms-flex-direction: column;
         flex-direction: column;
@@ -779,7 +779,7 @@ footer {
     margin: 0 auto;
   }
   
-  .nav{
+  .nav {
     word-spacing: 1rem;
   }
   
@@ -787,7 +787,7 @@ footer {
     height: 3.5em;
   }
 
-  .header-menu{
+  .header-menu {
     font-size: 1.2rem;
     width: 100%;
   }
@@ -798,23 +798,23 @@ footer {
     background-size: auto auto, auto 36rem, auto 33rem;
   }
 
-  .hero h1{
+  .hero h1 {
     font-size: 4rem;
   }
 
-  .tag{
+  .tag {
     height: 16rem;
   }
 
-  .tag p{
+  .tag p {
     width: 50%;
   }
 
-  #featured{
+  #featured {
     height: 39rem;
   }
 
-  .carousel-cell{
+  .carousel-cell {
     width: 25%;
   }
 
@@ -822,16 +822,16 @@ footer {
   font-size: 0.9rem;
   }
 
-  .sign-up{
+  .sign-up {
     height: 20.5rem;    
   }
 
-  .sign-up{
+  .sign-up {
     background-size: 90rem;
     margin-bottom: 0.5rem;
   }
 
-  .sign-up h2{
+  .sign-up h2 {
     font-size: 2.2rem;
   }
 
@@ -840,7 +840,7 @@ footer {
     padding: 0.5rem 0;
   }
 
-  .subscribe-button{
+  .subscribe-button {
     width: 26.5rem;
   }
 
@@ -848,11 +848,11 @@ footer {
     font-size: 1rem;
   }
 
-  footer{
+  footer {
     height: 17.5rem;
   }
 
-  .footer{
+  .footer {
     height: 17.5rem;
   }
 
@@ -860,7 +860,7 @@ footer {
     line-height: 1.5rem;
   }
 
-  .social-media{
+  .social-media {
     line-height: 1.9rem;
   }
 
